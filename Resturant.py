@@ -15,12 +15,14 @@ class RestaurantTable:
     def addOrder(self,order) :
         self.orders.append(order)
         self.total += self.menus[order]
+        # print(f'{self.menus} self-order')
+        # print(order)
 
     def printBill(self) :
         for order in self.orders :
-            print(f'{order} : {self.menus[order]}')
+            print(f'{order} : {self.menus[order]}$')
     
-        print(f'total price is {self.total}')
+        print(f'total price is {self.total}$')
 
 
 def StartProgram() :
