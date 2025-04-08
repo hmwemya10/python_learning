@@ -17,18 +17,18 @@ class Car:
         print(f'all car has only {cls.SterringWheel} wheels')
 
 
-Toyota = Car("Toyota",4)
-# print(Toyota.name)
-# print(Toyota.wheel)
+# Toyota = Car("Toyota",4)
+# # print(Toyota.name)
+# # print(Toyota.wheel)
 
-# Toyota.drive()
+# # Toyota.drive()
 
-# suzuki = Car("SUZUKI",4)
-# suzuki.drive()
+# # suzuki = Car("SUZUKI",4)
+# # suzuki.drive()
 
-print(Car.SterringWheel)
-# print(Car.common())
+# print(Car.SterringWheel)
+# # print(Car.common())
 
-print(Toyota.SterringWheel)
-Toyota.common()
+# print(Toyota.SterringWheel)
+# Toyota.common()
 
