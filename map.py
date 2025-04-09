@@ -1,3 +1,4 @@
+#if you want to modify the whole items of list USE map()
 nums = [2,5,6,7,8,9,10]
 
 #map(function,list) <- format
@@ -7,8 +8,11 @@ def mapFunction(num) : #num is from list(nums)
 
 map(mapFunction,nums)
 list(map(mapFunction,nums)) #<- map to list type casting
-nums = list(map(mapFunction,nums))
+nums = list(map(mapFunction,nums))  # nums is overwritten
 print(nums) 
+
+
+
 
 
 
